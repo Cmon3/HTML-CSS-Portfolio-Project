@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog SL</title>
+    <title>Portafolio Simon says theme</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
@@ -21,110 +21,79 @@
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
       <header id="header">
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg border-bottom border-3 border-danger">
                 <div class="container-fluid p-3">
                   <div class="navbar-header">
                     <a class="navbar-brand" href="#home">Simón Luque Web Developer</a>
                   </div>
                   <ul class="nav navbar-nav" style="justify-content: space-between; width:300px">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Summary</a></li>
-                    <li><a href="#">My Work</a></li>
-                    <li><a href="#">Get in Touch</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#mywork">My Work</a></li>
+                    <li><a href="#getintouch">Get in Touch</a></li>
                   </ul>
                 </div>
               </nav>
     </header>
+    
     <main>
-      <div class="container p-3 my-4 bg-success text-white">
-        <h1>Hello, I'm Simón Luque. I'm a Web Developer in progress.</h1>
-          <p>I'm a junior web developer from Venezuela with experience in HTML5, CSS3. I am on my way to become a full-stack develeoper. I live in Barcelona, I am also a health care professional and a coffee enthusiast.</p>
+      <div class="container p-3 my-4 bg-success text-white"><a id="summary"></a>
+        <h1>Hello, My name is Simón Luque. I'm a Web Developer in progress.</h1>
+          <p>I'm a junior web developer from Venezuela with experience in HTML5, CSS3, on my way to become a full-stack develeoper. I live in Barcelona, and I am also a health care professional and a coffee enthusiast.</p>
 
       </div>
 
-      <div class="inner p-3 my-4 bg-info text-white">
-        <h1 class="major">My Work.</h1>
+      <div class="container-fluid p-3 my-4 bg-info text-white">
+        <h1 class="major"><a id="mywork"></a>My Work.</h1>
           <p>Through my learning process with Migracode I have developed several projects, here are some examples.</p>
         <section class="projects">
           <article class="d-flex flex-column align-items-center">
-            <a href="#" class="image1"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen1.png" width="150em"></a>
+            <a href="#" class="image1"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen1.png" class="img-fluid" width="150em"></a>
             <br>
             <h3 class="major">Alan Watts Fan Page</h3>
             <p>Website created as requeriment to be accepted in Migracode.</p>
+            <a href="https://cmon3.github.io/" target="_blank"><p>Live Demo</p></a>
           </article>
           <article class="d-flex flex-column align-items-center">
-            <a href="#" class="image2"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen2.png" width="150em"></a>
+            <a href="#" class="image2"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen2.png" class="img-fluid" width="150em"></a>
             <br>
-            <h3 class="major">HTML-CSS challenge 1</h3>
+            <h3 class="major">HTML-CSS Challenge 1</h3>
             <p>In this project the aim was to introduce ourselves <br>in the use of HMTL and CSS.</p>
+            <a href="https://github.com/Cmon3/HTML-CSS-Challenges/blob/main/zoo-css-challenge/index.html" target="_blank"><p>See The Code</p></a>
           </article>
           <article class="d-flex flex-column align-items-center">
-            <a href="#" class="image3"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen3.png" width="150em"></a>
+            <a href="#" class="image3"><img src="../HTML-CSS-Portfolio-Project/Images/Imagen3.png" class="img-fluid" width="150em"></a>
             <br>
-            <h3 class="major">HTML-CSS challenge 2</h3>
+            <h3 class="major">HTML-CSS Challenge 2</h3>
             <p>Project aiming to get our first experience with <br>responsive sites, by the use of Flexbox and Media<br> Queries.</p>
+            <a href="https://github.com/Cmon3/HTML-CSS-Coursework-Week2/blob/english-migracode/simon-luque/index.html" target="_blank"><p>See The Code</p></a>
           </article>
         </section>
       </div>
 
     </main>
 
-    <a href="https://www.amazon.es/dp/0679723005?SubscriptionId=AKIAJGTABWIBL2VADPUA&linkCode=gs2&creativeASIN=0679723005&tag=bigthink0a-21&creative=165953&camp=2025"><span class="samecolor">On the Taboo Against Knowing Who You Are</a></li>
 
-    <footer class="d-flex flex-column align-items-center">
+    <footer class="container-sm border border-warning border-5 d-flex py-2 flex-column align-items-center">
       <hr>
-      <h4>Get in Touch</h4>
+      <h4><a id="getintouch"></a>Get in Touch</h4>
     
-      <section class="d-sm-flex flex-row">
-      <img class="socialmedia1"
+      <section class="d-sm-flex py-1 flex-row justify-content-center">
+      <a href="https://github.com/Cmon3" target="_blank"><img class="socialmedia1"
           src="../HTML-CSS-Portfolio-Project/Images/github.png"
           alt="icon-github"
           width="35px"
-      >
+      ></a>
       
-      <img class="socialmedia2"
+      <a href="https://www.linkedin.com/in/simon-luquegonzalez/" target="_blank"><img class="socialmedia2"
           src="../HTML-CSS-Portfolio-Project/Images/linkedin.png"
           alt="icon-linkedin"
-          width="55px"
-          >
+          width="65px"
+          ></a>
       </section>
-      <h5>Barcelona, 2021.</h5>
+      <h5 class="text-secondary h5">Barcelona, 2021</h5>
   </footer>
 
   </body>

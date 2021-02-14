@@ -15,4 +15,15 @@
     margin: 0 0 2em 0;
  }
 
+ .projects article:first-child {
+    border-right: white;
+    border-style: double;
+}
+
+ .projects a {
+    color: white;
+        }
+
+footer h5, h4 {text-align: center;
+}
 
